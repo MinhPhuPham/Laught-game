@@ -21,7 +21,7 @@ yarn-error.log*
 *.sw?
 
 # Model weights
-/public/data/weights/*
+# /public/data/weights/*
 
 # Electron-builder output
 /dist_electron
