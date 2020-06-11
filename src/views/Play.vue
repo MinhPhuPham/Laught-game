@@ -36,7 +36,7 @@
         You lasted: {{finalTime}}
       </div>
       <div class="buttons">
-        <button class="btn btn-start">
+        <button class="btn btn-start" @click="startGame()" style="cursor: pointer;">
           Make an angry face to try again! 😠😠😠
         </button>
       </div>
@@ -195,6 +195,10 @@ export default {
         }
 
       }, 4000);
+    },
+
+    startGame: function(){
+      this.newGame();
     },
 
     onAngry: function() {
