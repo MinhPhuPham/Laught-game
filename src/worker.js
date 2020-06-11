@@ -106,7 +106,7 @@ let notifyRenderer = (command, payload) => {
 }
 
 loadNet()
-.then(() => {
+.then(_ => {
   console.log('Network has loaded');
   return initCamera(640, 480);
 })
