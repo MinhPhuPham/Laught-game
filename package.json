@@ -1,6 +1,7 @@
 {
   "name": "do-not-laugh",
   "version": "1.0.2",
+  "author": "Jable Jonhson (PMP)",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
